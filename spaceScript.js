@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
 	$("#mercury").click(function() {
-    $("#mercuryimg").toggle();
+    $("#showMercury").toggle();
 	});
 });
 $(document).ready(function() {
