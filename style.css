@@ -29,15 +29,15 @@ body {
 #showSun {
 	display: none;
 }
-}
-#showmercury {
+
+#showMercury {
 	display: none;
 }
-}
+
 #showvenus {
 	display: none;
 }
-}
+
 #showEarth {
 	display: none;
 }
