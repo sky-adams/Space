@@ -37,21 +37,32 @@
     </nav>
     
     <!--page content-->
-    <h1>Venus</h1>
+    <h1 class= "header">Venus</h1>
 	
 	<p>
 	Venus is the second closest planet to The Sun and orbits The Sun every 224.7 days. Unusually Venus rotates in the opposite direction of most other planets in our solar system. Also Venus is named after the Roman Goddess of love and beauty. At night Venus can easily be seen by the naked eye, but during the day it is almost impossible to see with the naked eye. Like the Earth Venus is a terrestrial planet and some people have even called it Earth’s “sister planet”. Unlike the Earth Venus is completely unlivable because 96% of its atmosphere is made of Carbon dioxide.
 
-	</P>
-	<button type="img" id="venus"><img src= "venus.jpg"></button>
-	<p id= "showvenus"> venus <p>
+	</p>
 	
-	<img src= "venus.jpg" id="venusimg" alt="venus">
+	<img src= "venus.gif" id="venimg"  alt="no">
+    
+		<form action="/action_page.php">
+  <p class= "YW">Your Weight:</p><br>
+  <input type="text" id="inputV">
+  <br>
+  <button type="button" id="V">Calculate!</button> <br>
+  <p id= "VW" class= "YW">Your Weight on Venus:
+  
+  </p>
+  <p id= "outputV"> </p>
+  <br>
+</form> 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="spaceScript.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
