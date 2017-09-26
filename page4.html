@@ -37,22 +37,30 @@
     </nav>
     
     <!--page content-->
-    <h1>Mars</h1>
+    <h1 class= "header">Mars</h1>
     
-	<P>
+	<p>
 	Mars is the fourth closest planet to the Sun and is one of the smallest planets in our solar system. Mars can be seen very easily from the earth with the naked eye and has a rotational period of 1.88 Earth Years. Also Nasa rereported that they found a large amount of underground ice in the Utopia Planitia Mars region. Mars has about 38% of the Earth’s gravity and the orangish red color of the planet’s surface is caused by rust or Iron oxide.
-	</P>
-	  </P>
-	<button type="img" id="Mars"><img src= "Mars.jpg"></button>
-	<p id= "showMars"> ars <p>
+	</p>
+	<img src= "mars.jfif" id="marsimg"  alt="no">
 	
-	<img src= "Mars.jpg" id="Mars.img" alt="Mars">
-    
+<form action="/action_page.php">
+  <p class= "YW">Your Weight:</p><br>
+  <input type="text" id="inputMa">
+  <br>
+  <button type="button" id="Ma">Calculate!</button> <br>
+  <p id= "MAW" class= "YW">Your Weight on Mars:
+  
+  </p>
+  <p id= "outputMa"> </p>
+  <br>
+</form> 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="spaceScript.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
