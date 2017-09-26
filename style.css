@@ -1,67 +1,36 @@
 body {
 	text-align: center;
+	background-image: url("twinkle.jpg");
 }
 
-.earth {
-	 background-color: powderblue;
-	 color: green;
-}
 
 .header {
 	 font-family: Comic Sans Ms;
 	 text-align: center;
 	 color: rgb(106, 90, 205);
+	 font-size: 50px;
 }
 
-/*.hidden {
-	display: none;
-}*/
-
-#sun {
-	margin-bottom: 50px;
-	margin-right: 50px;
+.YW {
+    color: rgb(106, 90, 205);
+	font-size: 15px;
+	
 }
+
 
 #sunimg {
 	display: none;
 
 }
+
+
 #showSun {
 	display: none;
 }
 
-#showMercury {
-	display: none;
-}
 
-#showvenus {
-	display: none;
-}
 
-#showEarth {
-	display: none;
-}
-
-#showmars {
-	display: none;
-}
-
-#showjupiter {
-	display: none;
-}
-
-#showsaturn {
-	display: none;
-}
-
-#showuranus {
-	display: none;
-}
-
-#showneptune {
-	display: none;
-}
-
-#showpluto {
-	display: none;
+p {
+	font-size: 25px;
+	color: yellow;
 }
